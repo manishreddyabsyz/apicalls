@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import "./App.css"
+//api calls
 const App = () => {
   const[users,setUsers]=useState([])
  const data={fname:"manish",lname:"reddy"}
